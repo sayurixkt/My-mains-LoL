@@ -1,0 +1,60 @@
+body {
+    max-width: fit-content;
+    background-color: rgb(190, 152, 224);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+header,
+footer {
+    border: 100px;
+    color: rgb(190, 152, 224);
+    border-radius: 15px;
+    padding: 0.25px;
+    text-align: center;
+    align-content: center;
+    background-color: rgb(24, 3, 42);
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: fantasy;
+}
+
+main {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 30px;
+}
+
+section {
+    border: 10px rgb(112, 84, 179);
+    border-radius: 15px;
+    border-style: groove;
+    padding: 15px;
+    height: 550px;
+    text-align: justify;
+
+}
+
+
+img {
+    border: 5px solid rgb(24, 3, 42);
+    width: 300px;
+    height: 300px;
+}
+
+figcaption {
+    font-size: 15pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: monospace;
+    text-align: center;
+}
+
+.im {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sec{
+    margin-right: 15px;
+}
+
